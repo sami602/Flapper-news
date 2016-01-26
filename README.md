@@ -7,8 +7,11 @@ create your repository on github
 $ git remote set-url origin https://github.com/<new repository>
 
 $ bundle install
+
 $ rake db:create
+
 $ rake db:migrate
+
 $ rake bower:install
 
 Then you can register through the UI defined in angular, you could choose the role you want the user to have : 
